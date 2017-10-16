@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BlackJack</title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 the-table">
+				<div class="row">
+					<div class="deal-hand-wrapper col-sm-12">
+						<div class="col-sm-2">
+							<p>Dealer Total:</p> <span class="dealer-total">0</span>
+						</div>
+						<div class="col-sm-10 dealer-cards">
+							<div class="card card-1 col-sm-2"><img src="images/cards/death.jpg"/>
+							</div>
+							<div id="dealer2">
+							<div class="card card-2 col-sm-2"><img src="images/cards/death.jpg"/>
+							</div>
+							</div>
+							<div class="card card-3 col-sm-2"><img src="images/cards/death.jpg"/>
+							</div>
+							<div class="card card-4 col-sm-2"><img src="images/cards/death.jpg"/>
+							</div>
+							<div class="card card-5 col-sm-2"><img src="images/cards/death.jpg"/>
+							</div>
+							<div class="card card-6 col-sm-2"><img src="images/cards/death.jpg"/>
+							</div>
+						</div>
+					</div>
+					<div class="player-hand-wrapper col-sm-12">
+						<div class="col-sm-2">
+							<p>Player Total:</p> <span class="player-total">0</span>
+							<br>
+							<br>
+							<br>
+							<p>Player Pot:</p> <span class="player-money">500</span>
+							<p>Current Pot:</p> <span class="bet-money">0</span>
+
+							<br>
+							<br>
+							<button class="btn btn-danger reset-button">RESET</button>
+
+
+						</div>
+						<div class="col-sm-10 player-cards">
+							<div class="card card-1 col-sm-2"><img src="images/cards/megatron.jpg"/></div>
+							<div class="card card-2 col-sm-2"><img src="images/cards/megatron.jpg"/></div>
+							<div class="card card-3 col-sm-2"><img src="images/cards/megatron.jpg"/></div>
+							<div class="card card-4 col-sm-2"><img src="images/cards/megatron.jpg"/></div>
+							<div class="card card-5 col-sm-2"><img src="images/cards/megatron.jpg"/></div>
+							<div class="card card-6 col-sm-2"><img src="images/cards/megatron.jpg"/></div>
+						</div>
+					</div>
+					<div class="the-buttons">
+
+						<div class="col-sm-2 col-sm-offset-3">
+							<button class="btn btn-primary deal-button">Deal</button>
+						</div>
+						<div class="col-sm-2 col-sm-offset-1">
+							<button class="btn btn-danger hit-button">Hit</button>
+						</div>	
+						<div class="col-sm-2 col-sm-offset-1">
+							<button class="btn btn-success stay-button">Stay</button>
+						</div>					
+					</div>
+
+					<div class="the-buttons2">
+
+						<div class="col-sm-2 col-sm-offset-3">
+							<button class="btn btn-primary bet5-button">Bet 5</button>
+						</div>
+						<div class="col-sm-2 col-sm-offset-1">
+							<button class="btn btn-danger bet10-button">Bet 10</button>
+						</div>	
+						<div class="col-sm-2 col-sm-offset-1">
+							<button class="btn btn-success bet20-button">Bet 20</button>
+						</div>					
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

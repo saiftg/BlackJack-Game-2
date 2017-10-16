@@ -1,0 +1,50 @@
+body{
+/*	background: pink;
+*/	background-image: url("background.jpg");
+}
+
+
+.the-table{
+	background-color: rgba(39, 119, 20, 0.4);
+	border: 5px solid #dcdcdc;
+	border-radius: 10%;
+	margin-top: 50px;
+	padding: 30px 0px;
+
+
+}
+
+
+.card{
+/*	height: 120px;
+	background-color: #fff;
+	padding: 10px;*/
+	border: 2px solid #277714;
+	margin-bottom: 5px;
+
+}
+
+.card img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.dealer-hand-wrapper, .player-hand-wrapper{
+	margin-bottom: 20px;
+}
+.the-buttons{
+
+
+}
+.the-buttons2 button{
+	background-color: yellow;
+	color: black;
+}
+
+span{
+	color: #fff;
+}
+
+p{
+	color: yellow;
+}
