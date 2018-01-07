@@ -1,9 +1,12 @@
 # Blackjack game
 ## Made with JavaScript, jQuery, Bootstrap, and CSS
 
-![BlackJack1]([BlackJack 2](https://github.com/saiftg/BlackJack-Game-2/blob/master/CSS/BlackJack1.png))
+![blackjack1](https://user-images.githubusercontent.com/26581591/34652967-516acca0-f3b3-11e7-92e4-21f777c2444c.png)
 
-![BlackJack 2]([BlackJack 2](https://github.com/saiftg/BlackJack-Game-2/blob/master/CSS/BlackJack2.png))
+
+![blackjack2](https://user-images.githubusercontent.com/26581591/34652968-5179b760-f3b3-11e7-91d3-a1da566c8755.png)
+
+
 
 
 
