@@ -10,6 +10,3 @@
 
 
 
-### Some bugs to fix:
-- The CurrentPot needs to be reset after every round
-- Need to add more styles and effects
